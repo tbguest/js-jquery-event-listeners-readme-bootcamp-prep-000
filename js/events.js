@@ -27,7 +27,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  $('').on('submit', function() {
+  $('input:nth-child(2)').on('submit', function() {
     alert('Your form is going to be submitted now.'); 
     return
   })
