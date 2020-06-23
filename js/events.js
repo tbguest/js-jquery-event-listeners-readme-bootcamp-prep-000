@@ -30,7 +30,7 @@ function submitIt() {
   
   const formSubmit = $('input:submit')
   $(formSubmit).on('submit', function() {
-    alert('Your form is going to be submitted now.'); 
+    alert("Your form is going to be submitted now."); 
     return
   })
 }
